@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Cards from "./Cards";
 
 const GameBoard = () => {
-    const initialCards = ['A', 'B', 'C', 'D', 'A', 'B', 'C', 'D'];
+    const initialCards = ['Java', 'C#', 'JS', 'Python', 'Java', 'C#', 'JS', 'Python'];
     const [cards, setCards] = useState([]);
     const [flippedCards, setFlippedCards] = useState([]);
     const [matchedCards, setMatchedCards] = useState([]);
